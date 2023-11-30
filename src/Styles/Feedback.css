@@ -1,0 +1,114 @@
+/* Feedback Form Container */
+.custom-registration-form {
+  width: 100%;
+  max-width: 450px;
+  background: #fcfafa;
+  box-shadow: 0 0 40px rgb(96, 243, 243);
+  border-radius: 20px;
+  padding: 40px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 60px;
+  outline: 2px solid rgb(148, 176, 179);
+}
+
+@media screen and (min-width: 768px) {
+  .custom-registration-form:hover {
+    animation: none;
+  }
+}
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.custom-input-box h5,
+.custom-column h5,
+.custom-gender-box h5,
+.custom-feedback-fields h5,
+.custom-dropdown-box h5,
+.custom-radio-buttons h5,
+.custom-comment-box h5 {
+  font-size: 20px;
+  color: #111111;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.custom-input-box input,
+.custom-column input,
+.custom-dropdown-box select,
+.custom-radio-buttons input,
+.custom-comment-box textarea {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  color: #050505;
+  padding: 0 5px;
+  background: transparent;
+  border: 2px solid #0f0f0f;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.custom-gender-option {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.custom-gender {
+  display: flex;
+  align-items: center;
+  color: #050505;
+}
+.custom-checkboxes label {
+  display: block;
+  margin-bottom: 10px;
+  color: #050505;
+}
+
+.custom-dropdown-box select {
+  background: transparent;
+  margin-bottom: 15px;
+}
+.custom-radio-buttons label {
+  display: block;
+  margin-bottom: 10px;
+  color: #050505;
+}
+.custom-radio-buttons input {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.custom-comment-box textarea {
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+  color: #050505;
+  padding: 5px;
+  background: transparent;
+  border: 2px solid #0a0a0a;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.custom-submit-button {
+  width: 100%;
+  height: 40px;
+  background: rgb(66, 132, 138);
+  box-shadow: 0 0 10px rgb(44, 82, 85);
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  transition: none; 
+}
+.custom-submit-button:hover {
+  animation: none;
+  background: rgb(94, 207, 207);
+}
+

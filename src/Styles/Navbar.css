@@ -1,0 +1,15 @@
+.offcanvas {
+    position: fixed;
+    height: 100%;
+  }
+  body {
+    overflow: scroll;
+  }
+.music-icon {
+    transition: transform 0.3s ease, color 0.3s ease; 
+  }
+  .music-icon:hover {
+    transform: rotate(360deg); 
+  }
+
+  

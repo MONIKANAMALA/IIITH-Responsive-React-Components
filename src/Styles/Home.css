@@ -1,0 +1,18 @@
+.hover-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 
+      0 0 5px 1px #C0C0C0, 
+      0 0 10px 2px #C0C0C0, 
+      0 0 20px 5px #C0C0C0,
+      0 0 40px 8px #C0C0C0; 
+  }
+.hover-card {
+    border-radius: 20px;
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out; 
+  }  
+  .hover-card:hover {
+    transform: scale(1.05); 
+  }
+  
